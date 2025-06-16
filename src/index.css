@@ -157,12 +157,14 @@ li {
 .background_image {
   background-image: url('./assets/background__image.png');
   background-position: center;
-  background-size: 100%;
+  background-size: 100%; /* ← aqui está a diferença */
   background-repeat: no-repeat;
 }
 
+/* Ajuste para responsivo */
 @media (max-width: 639px) {
   .background_image {
-    background-image: none;
+    background-size: cover; /* mantém o preenchimento no mobile */
+    background-position: center;
   }
 }

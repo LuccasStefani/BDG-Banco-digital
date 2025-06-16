@@ -10,12 +10,12 @@ export const navLinks = [
     title: "Sobre a BDG",
   },
   {
-    id: "product",
-    title: "Segurança",
-  },
-  {
     id: "clients",
     title: "Cartão BDG",
+  },
+  {
+    id: "maquina",
+    title: "Maquininha BDG",
   },
 ];
 
