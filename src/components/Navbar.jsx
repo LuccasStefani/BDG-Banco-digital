@@ -10,10 +10,10 @@ const Navbar = () => {
 
   return (
 
-<nav className={`w-full  top-0 z-50  ${styles.paddingX}`}>
+<nav className={`w-full z-50  ${styles.paddingX}`}>
   <div className={`flex justify-between items-center py-6 ${styles.boxWidth}`}>
     {/* Logo */}
-    <img src={logo} alt="logo" className="w-[124px] h-[62px] sm:ml-[-50px]" />
+    <img src={logo} alt="logo" className="w-[124px] h-[62px] sm:ml-[-50px] ml-[-25px]" />
 
 
     {/* Menu Desktop */}
@@ -38,11 +38,11 @@ const Navbar = () => {
     </div>
 
     {/* Menu Mobile */}
-    <div className="sm:hidden flex justify-end items-center">
+    <div className="sm:hidden flex justify-end items-center ml-8">
       <img
         src={toggle ? close : menu}
         alt="menu"
-        className="w-[28px] h-[28px] object-contain"
+        className="w-[30px] h-[28px] ml-8 object-contain"
         onClick={() => setToggle(!toggle)}
       />
       <div

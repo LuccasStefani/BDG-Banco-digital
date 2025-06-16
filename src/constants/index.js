@@ -80,65 +80,65 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Links úteis",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "Conteudo",
+        link: "#",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Como funciona",
+        link: "#",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Criar",
+        link: "#",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Explorar",
+        link: "#",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Termos",
+        link: "#",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Comunidade",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
+        name: "Centro de ajuda",
+        link: "#",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Parcerias",
+        link: "#",
       },
       {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
+        name: "Sugestões",
+        link: "#",
       },
       {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
+        name: "Sites",
+        link: "#",
       },
       {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
+        name: "Noticías",
+        link: "#",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Parceirias",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Nossos Parceiros",
+        link: "#",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Seja um parceiro",
+        link: "#",
       },
     ],
   },
@@ -173,15 +173,16 @@ export const clients = [
     logo: airbnb,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "client-1",
+    logo: airbnb,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "client-1",
+    logo: airbnb,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    id: "client-1",
+    logo: airbnb,
   },
+
 ];
